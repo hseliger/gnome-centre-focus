@@ -18,8 +18,8 @@
 
 /* exported init */
 
-const Meta = imports.gi.Meta;
-const Clutter = imports.gi.Clutter;
+import Meta from 'gi://Meta';
+import Clutter from 'gi://Clutter';
 
 class Extension {
     constructor() {
