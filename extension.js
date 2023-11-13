@@ -21,7 +21,7 @@
 import Meta from 'gi://Meta';
 import Clutter from 'gi://Clutter';
 
-class Extension {
+export default class MyExtension {
     constructor() {
         this._handler = null;
     }
@@ -69,5 +69,5 @@ class Extension {
 }
 
 function init() {
-    return new Extension();
+    return new MyExtension();
 }
