@@ -1,13 +1,7 @@
 {
     "name": "Centre Mouse on Focus",
     "description": "Centre mouse to the newly focused window",
-    "uuid": "centre.mouse@dotrar.tech",
-    "url" : "https://github.com/Dotrar/gnome-centre-focus",
-    "shell-version": [
-        "42",
-        "41",
-        "40",
-        "3.38",
-        "3.36"
-    ]
+    "uuid": "centre.mouse@hseliger.eu",
+    "url" : "https://github.com/hseliger/gnome-centre-focus",
+    "shell-version": [ "45" ]
 }
