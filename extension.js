@@ -18,7 +18,7 @@
 
 /* exported init */
 
-import Meta from 'gi://Meta';
+import Mtk from 'gi://Mtk';
 import Clutter from 'gi://Clutter';
 
 export default class MyExtension {
@@ -55,7 +55,7 @@ export default class MyExtension {
         const [x, y] = global.get_pointer();
 
         //check if the cursor is already in the window 
-        const pointer_rect = new Meta.Rectangle({ x, y, width: 1, height: 1 });
+        const pointer_rect = new Mtk.Rectangle({ x, y, width: 1, height: 1 });
         if (pointer_rect.intersect(win_rect)[0]){
             return;
         }
